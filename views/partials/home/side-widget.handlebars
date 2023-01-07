@@ -1,0 +1,16 @@
+ <div class="card my-4">
+    <div class="card-body">
+    {{#if user}}
+    <h5 class="card-title">{{user.firstName}}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">{{user.lastName}}</h6>
+    <p class="card-text">Welcome to our Site.</p>
+    <a href="/logout" class="card-link">Logout</a>
+    
+    {{else}}
+    <h5 class="card-text">Welcome to our Site.</h5>
+    <p class="card-text">Login to Continue.</p>
+    <a href="/login" class="card-link">Login</a>
+    {{/if}}
+    
+  </div>
+  </div>

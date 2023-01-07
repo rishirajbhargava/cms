@@ -1,0 +1,22 @@
+<div class="row" style="display:flex; margin-left:30px">
+    
+
+    <form action="/admin/generate-fake-posts" method="post">
+
+        <h1>Create Post</h1>
+
+        <div class="form-group">
+
+                <input type="number" class="form-control" name="amount" placeholder="No. of posts">
+        </div>
+
+        <button type="submit" class="btn btn-dark">Generate Posts</button>
+    </form>
+</div>
+
+<div class="row">
+    <div class="alert alert-success" style="margin: 1.5rem;">
+        <h5>Number of Posts: {{postCount}}</h5>
+    </div>
+     <canvas id="myChart"  ></canvas>
+</div>
