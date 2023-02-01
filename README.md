@@ -1,6 +1,6 @@
 # content-management-system
 
-##CONTENT MANAGEMENT SYSTEM | NODEJS APPLiCATiON
+## CONTENT MANAGEMENT SYSTEM | NODEJS APPLiCATiON
 • Developed a Content Management System using NodeJs in backend and template engine Handlebars in frontend.
 • Implemented CRUD operations using Express framework and deployed using MongoDB database.
 • Implemented Login and Registration system using PassportJs and BcryptJs
